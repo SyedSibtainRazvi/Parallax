@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -17,22 +18,15 @@
         <img class="mySlide" src="./assets/image3.jpg">
     </header>
 
-    <div class="block">
-        <img src="./assets/c1.jpg" data-speed="1" class="img-parallax" width="1000px">
-        <h2>Parallax Text</h2>
-    </div>
-    <div class="block">
-        <img src="./assets/c2.jpg" data-speed="-0.25" class="img-parallax">
-        <h2>Parallax Speed -0.25</h2>
-    </div>
-    <div class="block">
-        <img src="./assets/c3.jpg" data-speed="0.25" class="img-parallax">
-        <h2>Parallax Speed 0.25</h2>
-    </div>
-    <div class="block">
-        <img src="./assets/c4.jpg" data-speed="-0.75" class="img-parallax">
-        <h2>Parallax Speed -0.75</h2>
-    </div>
+    <section class="image-container">
+        <img class="thumbnail" src="./assets/c1.jpg" width="800px" height="600px" alt="image">
+        <img class="thumbnail" src="./assets/c2.jpg" width="800px" height="600px" alt="image">
+    </section>
+
+    <section class="image-container">
+        <img class="thumbnail" src="./assets/c3.jpg" width="800px" height="600px" alt="image">
+        <img class="thumbnail" src="./assets/c4.jpg" width="800px" height="600px" alt="image">
+    </section>
     <script src="main.js"></script>
 </body>
 
