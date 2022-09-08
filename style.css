@@ -37,16 +37,7 @@ body {
     display: flex;
 }
 
-/* .parallax-text {
-    z-index: 1000;
-    position: absolute;
-    align-items: center;
-    font-size: 4rem;
-    color: white;
-    font-weight: 300;
-} */
-
-/* .block {
+.block {
     width: 100%;
     height: 100%;
     position: relative;
@@ -74,4 +65,4 @@ body {
     left: 50%;
     transform: translate(-50%, 0);
     pointer-events: none
-} */
+}
