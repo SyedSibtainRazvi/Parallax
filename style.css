@@ -37,7 +37,7 @@ body {
     display: flex;
 }
 
-.block {
+/* .block {
     width: 100%;
     height: 100%;
     position: relative;
@@ -65,4 +65,4 @@ body {
     left: 50%;
     transform: translate(-50%, 0);
     pointer-events: none
-}
+} */
